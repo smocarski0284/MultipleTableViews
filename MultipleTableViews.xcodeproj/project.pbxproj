@@ -15,6 +15,8 @@
 		21259F9B1F4DC9DE0021321F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21259F991F4DC9DE0021321F /* LaunchScreen.storyboard */; };
 		21259FA61F4DC9DE0021321F /* MultipleTableViewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21259FA51F4DC9DE0021321F /* MultipleTableViewsTests.swift */; };
 		21259FB11F4DC9DE0021321F /* MultipleTableViewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21259FB01F4DC9DE0021321F /* MultipleTableViewsUITests.swift */; };
+		21259FBF1F4DCCD60021321F /* Toppings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21259FBE1F4DCCD60021321F /* Toppings.swift */; };
+		21DFE2281F4F1C5600FA40F1 /* FinalPizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DFE2271F4F1C5600FA40F1 /* FinalPizza.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		21259FAC1F4DC9DE0021321F /* MultipleTableViewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultipleTableViewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		21259FB01F4DC9DE0021321F /* MultipleTableViewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleTableViewsUITests.swift; sourceTree = "<group>"; };
 		21259FB21F4DC9DE0021321F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21259FBE1F4DCCD60021321F /* Toppings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toppings.swift; sourceTree = "<group>"; };
+		21DFE2271F4F1C5600FA40F1 /* FinalPizza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinalPizza.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 			children = (
 				21259F8D1F4DC9DE0021321F /* AppDelegate.swift */,
 				21259F8F1F4DC9DE0021321F /* ViewController.swift */,
+				21259FBE1F4DCCD60021321F /* Toppings.swift */,
+				21DFE2271F4F1C5600FA40F1 /* FinalPizza.swift */,
 				21259F911F4DC9DE0021321F /* Main.storyboard */,
 				21259F971F4DC9DE0021321F /* Assets.xcassets */,
 				21259F991F4DC9DE0021321F /* LaunchScreen.storyboard */,
@@ -263,8 +269,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				21259F961F4DC9DE0021321F /* MultipleTableViews.xcdatamodeld in Sources */,
+				21259FBF1F4DCCD60021321F /* Toppings.swift in Sources */,
 				21259F901F4DC9DE0021321F /* ViewController.swift in Sources */,
 				21259F8E1F4DC9DE0021321F /* AppDelegate.swift in Sources */,
+				21DFE2281F4F1C5600FA40F1 /* FinalPizza.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,6 +519,7 @@
 				21259FB71F4DC9DE0021321F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		21259FB81F4DC9DE0021321F /* Build configuration list for PBXNativeTarget "MultipleTableViewsTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +528,7 @@
 				21259FBA1F4DC9DE0021321F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		21259FBB1F4DC9DE0021321F /* Build configuration list for PBXNativeTarget "MultipleTableViewsUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +537,7 @@
 				21259FBD1F4DC9DE0021321F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
