@@ -96,7 +96,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         if tableView == self.toppingsTableView
         {
-            var hi = "hi"
             toppings.append(<#T##newElement: Toppings##Toppings#>)
             toppings.remove(at: indexPath.row)
             toppingsTableView.reloadData()
